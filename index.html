@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=410px">
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Bitter:400,700,400italic|Droid+Serif' rel='stylesheet' type='text/css'>
+<link href="css/master.css" rel="stylesheet" type="text/css">
+<link rel="icon" type="image/ico" href="favicon.ico" />
+<title>Current Internet Time - .Beats by Vian...</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28359909-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="content">
+    <header>
+      <h1>Current <a href="http://www.swatch.com/zz_en/internettime.html" title="Internet Time on Swatch.com" target="_blank">Internet Time</a></h1>
+      <h2><strong>@</strong><span id="internet-time"></span> .beats</h2>
+    </header>
+    <section>
+      <div class="timeZone">
+        <label for="DropDownTimezone">Timezone</label>
+        <select name="DropDownTimezone" id="DropDownTimezone">
+          <option value="-12">(GMT -12:00) Eniwetok, Kwajalein</option>
+          <option value="-11">(GMT -11:00) Midway Island, Samoa</option>
+          <option value="-10">(GMT -10:00) Hawaii</option>
+          <option value="-9">(GMT -9:00) Alaska</option>
+          <option value="-8">(GMT -8:00) Pacific Time (US &amp; Canada)</option>
+          <option value="-7">(GMT -7:00) Mountain Time (US &amp; Canada)</option>
+          <option value="-6">(GMT -6:00) Central Time (US &amp; Canada), Mexico City</option>
+          <option value="-5">(GMT -5:00) Eastern Time (US &amp; Canada), Bogota, Lima</option>
+          <option value="-4">(GMT -4:00) Atlantic Time (Canada), Caracas, La Paz</option>
+          <option value="-3">(GMT -3:00) Brazil, Buenos Aires, Georgetown</option>
+          <option value="-2">(GMT -2:00) Mid-Atlantic</option>
+          <option value="-1">(GMT -1:00 hour) Azores, Cape Verde Islands</option>
+          <option value="+0">(GMT) Western Europe Time, London, Lisbon, Casablanca</option>
+          <option value="+1">(GMT +1:00 hour) Biel, Brussels, Madrid, Paris</option>
+          <option value="+2">(GMT +2:00) Kaliningrad, South Africa</option>
+          <option value="+3">(GMT +3:00) Baghdad, Riyadh, Moscow, St. Petersburg</option>
+          <option value="+4">(GMT +4:00) Abu Dhabi, Muscat, Baku, Tbilisi</option>
+          <option value="+5">(GMT +5:00) Ekaterinburg, Islamabad, Karachi, Tashkent</option>
+          <option value="+6">(GMT +6:00) Almaty, Dhaka, Colombo</option>
+          <option value="+7">(GMT +7:00) Bangkok, Hanoi, Jakarta</option>
+          <option value="+8">(GMT +8:00) Beijing, Perth, Singapore, Hong Kong</option>
+          <option value="+9">(GMT +9:00) Tokyo, Seoul, Osaka, Sapporo, Yakutsk</option>
+          <option value="+10">(GMT +10:00) Eastern Australia, Guam, Vladivostok</option>
+          <option value="+11">(GMT +11:00) Magadan, Solomon Islands, New Caledonia</option>
+          <option value="+12">(GMT +12:00) Auckland, Wellington, Fiji, Kamchatka</option>
+        </select>
+      </div>
+      <div class="col" id="col1">
+        <div class="time-block">
+          <label for="hour" title="In 24 hour format">Hours</label>
+          <input title="hour" id="hour" maxlength="2" placeholder="00" type="number" pattern="[0-9]*"/>
+        </div>
+        <div class="time-block">
+          <label for="min">Minutes</label>
+          <input title="min" id="min" maxlength="2" placeholder="00" type="number" pattern="[0-9]*"/>
+        </div>
+        <div class="time-block">
+          <label for="sec">Seconds</label>
+          <input title="sec" id="sec" maxlength="2" placeholder="00" type="number" pattern="[0-9]*"/>
+        </div>
+      </div>
+      <div class="col" id="col2">
+        <p class="button"><a href="#" id="convert">&laquo; Convert &raquo; </a></p>
+      </div>
+      <div class="col" id="col3">
+        <div class="time-block">
+          <label for="beats">.<a href="http://www.youtube.com/watch?v=8Uee_mcxvrw&feature=colike" title="Secret ZEF link?" target="_blank">Beats</a></label>
+          <span>@</span>
+          <input title="beats" id="beats" maxlength="3" placeholder="000" type="number" pattern="[0-9]*"/>
+        </div>
+      </div>
+    </section>
+    <footer> <a href="http://heyvian.com" title="HeyVian.com" id="logo"><img src="images/logo.png" alt="Beats by Vian" title="Beats by Vian"></a>
+      <div id="extensions">
+        <ul>
+          <li class="opera"><a href="https://addons.opera.com/en/addons/extensions/details/toolbar-internet-time/0.9.6/" title="Toolbar Internet Time for Opera" target="_blank">Toolbar Internet Time<em>Extension for Opera</em></a></li>
+          <li class="chrome"><a href="https://chrome.google.com/webstore/detail/gndfddnffmgpogkbkaicmcbdcjngamnh?hl=en-US" title="Toolbar Internet Time for Chrome" target="_blank">Toolbar Internet Time<em>Extension for Chrome</em></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+<script type="text/javascript" src="js/jstz.min.js"></script> 
+<script type="text/javascript" src="js/swatch-time.js"></script>
+</body>
+</html>

@@ -1,0 +1,265 @@
+/* CSS Document */
+html{
+	position:relative;
+	width:100%;
+	height:100%;
+	background:#fdfdfd url('../images/bg-rpt.gif') repeat left top;
+	padding:0;
+	margin:0;
+}
+body{
+	position:relative;
+	width:100%;
+	height:auto;
+	min-height:100%;
+}
+#wrapper {
+	position:relative;
+	width:390px;
+	height:auto;
+	margin:20px auto;
+	padding:0 10px 20px 10px;
+}
+header {
+	position:relative;
+	float:left;
+	width:390px;
+	height:auto;
+}
+section {
+	position:relative;
+	float:left;
+	width:348px;
+	height:auto;
+	padding:20px;
+	background:rgba(250,250,250,.5);
+	box-shadow:inset 0px 0px 25px rgba(55,55,55,.1);
+	border:1px solid #eee;
+	border-radius:3px;
+}
+.time-block {
+	position:relative;
+	float:left;
+	clear:left;
+	width:auto;
+	margin:0 0 25px 0;
+}
+.time-block label, .timeZone label {
+	position:relative;
+	float:left;
+	width:100%;
+	font-weight:bold;
+	font-size:14px;
+	font-family:"Droid Sans", sans-serif;
+	margin:0 0 3px 0;
+}
+.time-block label a{
+	color:#333;
+}
+.time-block label a:hover{
+	border:none;
+}
+.time-block input {
+	position:relative;
+	float:left;
+	clear:left;
+	height:21px;
+	width:61px;
+	padding:2px 5px;
+	border:1px solid #ddd;
+}
+.time-block input:focus {
+	border-color:#cc0a03;
+}
+.time-block span {
+	position:absolute;
+	top:23px;
+	left:-20px;
+	width:25px;
+	font-weight:700;
+}
+.timeZone {
+	position:relative;
+	float:left;
+	width:350px;
+	margin:0 0 25px 0;
+}
+.timeZone select {
+	float:left;
+	height:27px;
+	width:100%;
+	line-height:27px;
+	padding:2px 5px;
+	border:1px solid #ddd;
+	background:#fff;
+}
+.button {
+	text-align:center;
+	padding:0 0 15px 0;
+}
+#convert {
+	position:relative;
+	float:left;
+	height:75px;
+	width:150px;
+	padding:0;
+	margin:55px 0 0 0;
+	background:#ee1c25;
+	color:#fff;
+	font-weight:700;
+	font-size:21px;
+	font-family:"Droid Sans", sans-serif;
+	text-decoration:none;
+	text-align:center;
+	text-transform:uppercase;
+	text-shadow:1px 1px 2px rgba(0,0,0,.5);
+	line-height:75px;
+	vertical-align:middle;
+	border:1px solid #cc0a03;
+	border-radius:3px;
+	box-shadow:inset 2px 2px 1px rgba(255,255,255,.3), inset -2px -2px 1px rgba(0,0,0,.2);
+}
+#convert:hover {
+	background:#dd0b14;
+}
+a#convert:active {
+	box-shadow:inset -2px -2px 1px rgba(0,0,0,.2), inset 2px 2px 1px rgba(255,255,255,.3);
+}
+.col {
+	float:left;
+	margin:0 0 0 25px;
+}
+#col1 {
+	margin-left:0;
+}
+#col1, #col3 {
+	width:74px;
+}
+#col2 {
+	width:150px;
+}
+/***** TYPOGRAPHY *****/
+p, a, label, input, select, option, span {
+	font-family: 'Droid Sans', sans-serif;
+}
+h1 {
+	color:#333;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight:700;
+	font-size:25px;
+	line-height:1em;
+	letter-spacing:normal;
+	text-align:center;
+	text-transform:uppercase;
+	text-shadow:2px 2px 2px rgba(255,255,255,1);
+	margin:0 0 5px 0;
+	padding:0;
+}
+h2 {
+	color:#333;
+	font-family: 'Droid Serif', serif;
+	font-weight:700;
+	font-size:64px;
+	line-height:1em;
+	letter-spacing:-5px;
+	text-align:center;
+	text-shadow:2px 2px 2px rgba(255,255,255,1);
+	margin:0 0 5px 0;
+	padding:0;
+}
+h2 strong {
+	font-size:50px;
+	vertical-align:top;
+	letter-spacing:normal;
+}
+a {
+	text-decoration:none;
+	color:#ee1c25;
+}
+a:hover {
+	border-bottom:2px solid #333;
+}
+a#logo{
+	float:left;
+	width:350px;
+	margin:0 0;
+}
+a#logo img{	
+float:left;
+ width:350px;
+ height:71px;
+ margin:0 20px;
+}
+a#logo:hover{
+	border:none;
+}
+a#logo:hover image{
+	border:none;
+	/*transform:rotate(-4deg);
+	-o-transform:rotate(-4deg);
+	-webkit-transform:rotate(-4deg);
+	-moz-transform:rotate(-4deg);*/
+}
+
+#extensions ul{
+	position:relative;
+	float:left;
+	width:350px;
+	margin:10px 20px;
+}
+
+#extensions li{
+	position:relative;
+	float:left;
+	width:50%;
+	height:25px;
+	display:inline;
+	margin:0 0 0 0;
+}
+
+#extensions li:first-child{
+	margin-left:0;
+}
+
+#extensions li a{
+	position:relative;
+	float:left;
+	height:25px;
+	font-size:12px;
+	line-height:13px;
+	padding:0 0 0 30px;
+}
+#extensions li.chrome a{
+	background:url('../images/ico-chrome-web-store.png') no-repeat left center;
+}
+#extensions li.opera a{
+	background:url('../images/ico-opera.png') no-repeat left center;
+}
+#extensions li a:hover{
+	border:none;
+	color:#333;
+}
+
+#extensions li a em{
+	position:relative;
+	float:left;
+	clear:left;
+	font-style:normal;
+	font-size:10px;
+	color:#333;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+	html, html body{
+		float:left;
+		width:410px;
+		height:auto;
+	}
+	html body #wrapper{
+		float:left;
+		width:390px;
+		height:auto;
+		padding:0 10px;
+	}
+}
